@@ -1,5 +1,7 @@
 .nav-bg-color {
-  color: #bedfe1;
+  background-color: #bedfe1;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -163,6 +165,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-bg-color {
+  background-color: #bedfe1;
+}
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -184,6 +189,14 @@ p {
   color: #454A59;
   font-size: 1.6rem;
   text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #bedfe1;
+  padding: 10px;
+}
+.navigation nav a:hover {
+  background-color: #2b58de;
+  color: #000000;
 }
 footer {
   color: #22283B;
@@ -245,6 +258,10 @@ footer {
   padding: 10px;
   text-align: center;
   width: 100px;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 .home .walk .walk-img {
   width: 46%;

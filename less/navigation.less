@@ -1,5 +1,5 @@
 // Variables
-
+@nav-bg-color: #bedfe1;
 @nav-font: @river-bend;
 
 // Color vars
@@ -7,9 +7,9 @@
 @river-bend: #454A59;
 
 // Mixins
-
-
-
+.nav-bg-color {
+    background-color: @nav-bg-color;
+}
 
 // Navigation code here
 
@@ -35,6 +35,13 @@
             color: @river-bend;
             font-size: 1.6rem;
             text-decoration: none;
+            .nav-bg-color();
+            padding: 10px;
+
+            &:hover {
+                background-color: darken(royalblue, 5%);
+                color: darken(black, 5%);
+            }
         }
     }
 }

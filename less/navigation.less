@@ -1,3 +1,12 @@
+// Variables
+
+@nav-font: @river-bend;
+
+// Color vars
+
+@river-bend: #454A59;
+
+
 // Navigation code here
 
 .navigation {
@@ -7,13 +16,20 @@
     align-items: center;
     margin-bottom: 20px;
 
+    h1 {
+        font-size: 4.0rem;
+        line-height: 2;
+    }
+
     nav {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 75%;
+        width: 50%;
 
         a {
+            color: @river-bend;
+            font-size: 1.6rem;
             text-decoration: none;
         }
     }

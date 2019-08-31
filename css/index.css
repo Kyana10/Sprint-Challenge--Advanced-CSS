@@ -167,13 +167,19 @@ p {
   align-items: center;
   margin-bottom: 20px;
 }
+.navigation h1 {
+  font-size: 4rem;
+  line-height: 2;
+}
 .navigation nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 75%;
+  width: 50%;
 }
 .navigation nav a {
+  color: #454A59;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 footer {

@@ -47,8 +47,11 @@ Edit this document to include your answers after each question. Make sure to lea
 -Sets the rem value relative to the root of the html element to percentages. Default browser font-size is 16px. Because 62.5% of 16px is 10px. Which makes 1rem=10px;
 
 4. How would you describe preprocessing to someone new to CSS?
+-A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. It lets you use Variables, mixins and functions in order to keep your code DRY (Don't Repeat Yourself).
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+-What I like most about preprocessing is seeing the css.index automatically change and organize.
+-The morst trouble I encounter is knowing the difference between a parameter and parametric mixin.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

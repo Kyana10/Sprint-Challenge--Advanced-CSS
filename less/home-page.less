@@ -1,15 +1,28 @@
 // Home Content
 
 .home {
+  @media @phone {
+    .displayFlex();
+
+  }
 
   .intro {
 
     h2 {
       padding: 15px;
+
+      @media @phone {
+        text-align: center;
+      }
     }
 
     p {
       padding:0 15px;
+
+      @media @phone {
+        margin: 10 auto;
+        text-align: inherit;
+      }
     }
   
   }

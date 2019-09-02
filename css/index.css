@@ -3,6 +3,17 @@
   border: 2px solid black;
   border-radius: 5px;
 }
+.btn-bg-color {
+  background-color: #8d8d8d;
+  color: #000000;
+}
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +179,13 @@ p {
 .nav-bg-color {
   background-color: #bedfe1;
 }
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -260,7 +278,7 @@ footer {
   width: 100px;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: #ffffff;
+  background-color: #8d8d8d;
   color: #000000;
 }
 .home .walk .walk-img {

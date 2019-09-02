@@ -11,14 +11,19 @@
     background-color: @nav-bg-color;
 }
 
-// Navigation code here
-
-.navigation {
+// Parametric Mixins
+.displayFlex {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+
+// Navigation code here
+
+.navigation {
+    .displayFlex();
 
     h1 {
         font-size: 4.0rem;

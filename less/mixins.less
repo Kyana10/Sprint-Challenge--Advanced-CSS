@@ -11,10 +11,10 @@
 }
 
 // Parametric Mixins
-.displayFlex {
+.displayFlex(@justify; @align) {
     display: flex;
-    justify-content: space-between;
+    justify-content: @justify;
     flex-direction: column;
-    align-items: center;
+    align-items: @align;
     margin-bottom: 20px;
 }

@@ -226,12 +226,21 @@ footer {
     margin-bottom: 20px;
   }
 }
+@media (max-width:500px) {
+  .home .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
 @media (max-width:500px) {
   .home .intro h2 {
-    text-align: center;
+    margin: 0;
+    text-align: left;
   }
 }
 .home .intro p {
@@ -240,7 +249,7 @@ footer {
 @media (max-width:500px) {
   .home .intro p {
     margin: 10 auto;
-    text-align: inherit;
+    text-align: center;
   }
 }
 .home .space-images {
@@ -281,6 +290,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width:500px) {
+  .home .walk {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -288,7 +303,12 @@ footer {
   margin-bottom: 10px;
 }
 .home .walk .walk-text p {
-  margin-bottom: 26px;
+  margin: 26px;
+}
+@media (max-width:500px) {
+  .home .walk .walk-text p {
+    text-align: center;
+  }
 }
 .home .walk .walk-text .btn {
   background-color: #22283A;
@@ -299,6 +319,11 @@ footer {
   text-align: center;
   width: 100px;
 }
+@media (max-width:500px) {
+  .home .walk .walk-text .btn {
+    width: 175%;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background-color: #8d8d8d;
   color: #000000;
@@ -306,6 +331,11 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width:500px) {
+  .home .walk .walk-img {
+    width: 100%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
